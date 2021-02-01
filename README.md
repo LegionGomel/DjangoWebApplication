@@ -1,2 +1,2 @@
-# DjangoWebApplication
-Django web application from Eric Matthes book, chapters 18-20
+# Веб-приложения
+Главы 18-20 книги "изучаем Python - программирование игр, визуализация данных, веб-приложения. Эрик Мэтиз"
