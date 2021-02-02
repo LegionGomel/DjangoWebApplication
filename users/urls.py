@@ -1,6 +1,6 @@
 """Define URL schemes for users"""
 from django.urls import path
-from django.contrib.auth.views import LoginView, LogoutView, TemplateView
+from django.contrib.auth.views import LoginView, TemplateView
 from . import views
 
 app_name = "users"
@@ -11,5 +11,5 @@ urlpatterns = [
     # Logout page
     path('logout/', views.logout_view, name="logout"),
     # Register page
-    path('register/', TemplateView.as_view(template_name='users/register.html'), name="register"),
+    path('register/', views.register, name="register"),
 ]
