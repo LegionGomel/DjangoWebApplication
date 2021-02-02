@@ -5,4 +5,6 @@ from . import views
 urlpatterns = [
     # Homepage
     url(r'^$', views.index, name='index'),
+    # All topics output
+    url(r'^topics/$', views.topics, name='topics'),
 ]
